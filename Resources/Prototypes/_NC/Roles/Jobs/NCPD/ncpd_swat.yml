@@ -1,0 +1,17 @@
+- type: job
+  id: NCPDSWAT
+  name: Спецназ NCPD
+  description: job-description-ncpd-swat
+  playTimeTracker: JobNCPDSWAT
+  startingGear: NCPDSWATGear
+  icon: "JobIconSecurityOfficer" #TODO: заменить иконку
+  access:
+    - NCPD
+    - ArmoryNCPD
+    - SecurityNCPD
+
+- type: startingGear
+  id: NCPDSWATGear
+  equipment:
+    id: NCPDSWATPDA
+    jumpsuit: ClothingUniformJumpsuitColorGrey

@@ -1,0 +1,14 @@
+- type: job
+  id: TraumaTeamParamedic
+  name: Парамедик TraumaTeam
+  description: job-description-traumateam-paramedic
+  playTimeTracker: JobTraumaTeamParamedic
+  startingGear: TraumaTeamParamedicGear
+  access:
+    - Medical
+
+- type: startingGear
+  id: TraumaTeamParamedicGear
+  equipment:
+    id: TraumaTeamParamedicPDA
+    jumpsuit: ClothingUniformJumpsuitColorGrey

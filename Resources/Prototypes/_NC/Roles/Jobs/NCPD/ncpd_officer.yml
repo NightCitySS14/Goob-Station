@@ -1,0 +1,16 @@
+- type: job
+  id: NCPDOfficer
+  name: Офицер полиции
+  description: job-description-ncpd-officer
+  playTimeTracker: JobNCPDOfficer
+  startingGear: NCPDOfficerGear
+  icon: "JobIconSecurityOfficer" #TODO: заменить иконку
+  access:
+    - NCPD
+
+
+- type: startingGear
+  id: NCPDOfficerGear
+  equipment:
+    id: NCPDOfficerPDA
+    jumpsuit: ClothingUniformJumpsuitColorGrey

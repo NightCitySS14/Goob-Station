@@ -1,0 +1,18 @@
+- type: job
+  id: HoSMilitech
+  name: job-name-hosm
+  description: job-description-hosm
+  playTimeTracker: JobHoSM
+  startingGear: HoSMGear
+  icon: "JobIconPassenger" #TODO: change icon
+  access:   #TODO: change access
+  - SecurityMilitech
+  - Militech
+  - ArmoryMilitech
+
+
+- type: startingGear
+  id: HoSGear
+  equipment:
+    id: HoSMilitechPDA
+    jumpsuit: ClothingUniformJumpsuitColorGrey

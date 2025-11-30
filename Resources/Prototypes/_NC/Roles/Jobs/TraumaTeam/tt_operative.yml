@@ -1,0 +1,14 @@
+- type: job
+  id: TraumaTeamOperative
+  name: Оперативник TraumaTeam
+  description: job-description-traumateam-operative
+  playTimeTracker: JobTraumaTeamOperative
+  startingGear: TraumaTeamOperativeGear
+  access:
+    - Medical
+
+- type: startingGear
+  id: TraumaTeamOperativeGear
+  equipment:
+    id: TraumaTeamOperativePDA
+    jumpsuit: ClothingUniformJumpsuitColorGrey

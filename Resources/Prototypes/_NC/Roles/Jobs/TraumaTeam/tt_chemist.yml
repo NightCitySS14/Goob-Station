@@ -1,0 +1,15 @@
+- type: job
+  id: TraumaTeamChemist
+  name: Химик TraumaTeam
+  description: job-description-traumateam-chemist
+  playTimeTracker: JobTraumaTeamChemist
+  startingGear: TraumaTeamChemistGear
+  access:
+    - Medical
+    - Chemistry
+
+- type: startingGear
+  id: TraumaTeamChemistGear
+  equipment:
+    id: TraumaTeamChemistPDA
+    jumpsuit: ClothingUniformJumpsuitColorGrey

@@ -1,0 +1,69 @@
+- type: entity
+  parent: [ClothingOuterHardsuitBase]
+  id: ClothingOuterHardsuitTraumaTeamOperative
+  name: Костюм оперативника на Trauma Team
+  description: Этот костюм предназначен для оперативников Trauma Team. Он обеспечивает высокую защиту и оснащён специальными функциями для работы в опасных условиях.
+  components:
+  - type: Sprite
+    sprite: _NC/Clothing/OuterClothing/Hardsuits/trauma_hardsuit.rsi
+  - type: Clothing
+    sprite: _NC/Clothing/OuterClothing/Hardsuits/trauma_hardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.3
+        Slash: 0.3
+        Piercing: 0.3
+        Heat: 0.4
+        Caustic: 0.1
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 0.95
+    sprintModifier: 0.95
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitTraumaTeamOperative
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon
+
+- type: entity
+  parent: [ClothingOuterHardsuitBase]
+  id: ClothingOuterHardsuitTraumaTeamMedic
+  name: Костюм медика на Trauma Team
+  description: Этот костюм предназначен для медиков Trauma Team. Он обеспечивает защиту и оснащён специальными функциями для работы в опасных условиях.
+  components:
+  - type: Sprite
+    sprite: _NC/Clothing/OuterClothing/Hardsuits/trauma_med_hardsuit.rsi
+  - type: Clothing
+    sprite: _NC/Clothing/OuterClothing/Hardsuits/trauma_med_hardsuit.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.3
+    lowPressureMultiplier: 1000
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.4
+        Caustic: 0.1
+  - type: ZombificationResistance
+    zombificationResistanceCoefficient: 0.4
+  - type: ClothingSpeedModifier
+    walkModifier: 1
+    sprintModifier: 1
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing # Goobstation - Modsuits change
+    clothingPrototypes:
+      head: ClothingHeadHelmetHardsuitTraumaTeamMedic
+  - type: Tag
+    tags:
+    - Hardsuit
+    - WhitelistChameleon

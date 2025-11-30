@@ -1,0 +1,16 @@
+- type: job
+  id: Builder
+  name: Строитель
+  description: job-description-builder
+  playTimeTracker: JobBuilder
+  startingGear: BuilderGear
+  icon: "JobIconPassenger"
+  access:
+    - CitizenNC
+    - Builder
+
+- type: startingGear
+  id: BuilderGear
+  equipment:
+    id: BuilderPDA
+    jumpsuit: ClothingUniformJumpsuitEngineering
